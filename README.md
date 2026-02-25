@@ -1,124 +1,16 @@
-Weather App (React)
+# React + Vite
 
-A simple and responsive Weather Application built using React.js that allows users to check real-time weather information for any city worldwide.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-🚀 Features
+Currently, two official plugins are available:
 
-🔍 Search weather by city name
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
-🌡️ Display temperature in Celsius (°C) and Fahrenheit (°F)
+## React Compiler
 
-☁️ Shows weather condition (Cloudy, Rainy, Clear, etc.)
+The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
 
-🔄 Toggle between °C and °F
+## Expanding the ESLint configuration
 
-⚡ Real-time weather data using API
-
-📱 Responsive UI
-
-⏳ Loading and error handling
-
-🛠️ Tech Stack
-
-React.js
-
-JavaScript (ES6)
-
-CSS
-
-OpenWeatherMap API
-
-Vite / Create React App
-
-📂 Project Structure
-weather-app/
-│
-├── public/
-│
-├── src/
-│   ├── components/
-│   │   └── Weather.jsx
-│   │
-│   ├── App.jsx
-│   ├── App.css
-│   ├── main.jsx
-│   └── index.css
-│
-├── package.json
-└── README.md
-⚙️ Installation & Setup
-1️⃣ Clone the Repository
-git clone https://github.com/your-username/weather-app.git
-2️⃣ Navigate to Project Folder
-cd weather-app
-3️⃣ Install Dependencies
-npm install
-4️⃣ Get Weather API Key
-
-Go to 👉 https://openweathermap.org/api
-
-Create a free account
-
-Generate an API key
-
-5️⃣ Add API Key
-
-Inside your component:
-
-const API_KEY = "YOUR_API_KEY";
-6️⃣ Run the App
-npm run dev
-
-or
-
-npm start
-
-App will run on:
-
-http://localhost:5173
-🌐 API Used
-
-OpenWeatherMap API
-
-Example Request:
-
-https://api.openweathermap.org/data/2.5/weather?q=London&appid=API_KEY&units=metric
-🖼️ Application Preview
-
-Search any city
-
-View temperature
-
-Check weather condition instantly
-
-🔮 Future Improvements
-
-📍 Current location weather
-
-🌙 Dark / Light mode
-
-📅 5-day forecast
-
-🎨 Better UI animations
-
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the project
-
-Create your feature branch
-
-Commit changes
-
-Push to branch
-
-Open Pull Request
-
-📄 License
-
-This project is licensed under the MIT License.
-
-👨‍💻 Author
-
-Developed by Himanshu
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
